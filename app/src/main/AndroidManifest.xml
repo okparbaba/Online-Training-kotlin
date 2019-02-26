@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.greenhacker.greenhackeronlinetraining">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gh"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gh"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".activitys.SlashScreen"
+            android:theme="@style/AppTheme.SlashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.MainActivity"
+            android:label="GH Online Training"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".activitys.SignUpActivity" />
+        <activity android:name=".activitys.SignInActivity" />
+        <activity android:name=".activitys.OrderActivity"></activity>
+    </application>
+
+</manifest>

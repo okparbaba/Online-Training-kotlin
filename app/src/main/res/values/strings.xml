@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">GreenHackerOnlineTraining</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">User</string>
+    <string name="nav_header_subtitle">You are not log in.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_internet_connection">No internet connection</string>
+    <string name="retry">Retry</string>
+    <string-array name="Region">
+        <item>KaChin</item>
+        <item>KaYar</item>
+        <item>KaYin</item>
+        <item>Chin</item>
+        <item>Mon</item>
+        <item>RaKaine</item>
+        <item>Shan</item>
+        <item>Yangon</item>
+        <item>Bago</item>
+        <item>Ayarwady</item>
+        <item>Sagine</item>
+        <item>MaKwe</item>
+        <item>TaHinnTharYi</item>
+        <item>Mandalay</item>
+    </string-array>
+    <string-array name="Language">
+        <item>Web Design</item>
+        <item>Web Dev</item>
+        <item>Audinno</item>
+        <item>Android</item>
+    </string-array>
+</resources>
